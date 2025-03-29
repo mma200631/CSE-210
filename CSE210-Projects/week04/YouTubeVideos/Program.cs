@@ -14,7 +14,7 @@ class Program
         videos.Add(video1);
 
         Video video2 =new Video("Cooking Pasta 101", "Chef Mario", 900);
-        video1.AddComment("Sophia", "This looks delicious!");
+        video2.AddComment("Sophia", "This looks delicious!");
         video2.AddComment("Liam", "Tried this recipe, it's amazing!");
         video2.AddComment("Emma", "Best pasta ever.");
         videos.Add(video2);
