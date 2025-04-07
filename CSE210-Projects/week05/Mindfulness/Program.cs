@@ -1,3 +1,4 @@
+//Asked for username to do a proper introduction for them that how i exceeded requriements
 using System;
 
 class Program
@@ -5,6 +6,13 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Hello World! This is the Mindfulness Project.");
+        Console.WriteLine("Welcome to the Mindfulness App!");
+        Console.Write("Please enter your name: ");
+        string userName = Console.ReadLine();
+        Console.WriteLine($"Nice to meet you, {userName}!\n");
+        Console.WriteLine("Press Enter to begin...");
+        Console.ReadLine();
+        
         while (true)
         {
             Console.Clear();
